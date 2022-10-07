@@ -1,0 +1,193 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "metadata:update:job": {
+      "name": "metadata:update:job",
+      "command": "npm run metadata:update:job",
+      "runAtStart": true
+    },
+    "metadata:pull-request": {
+      "name": "metadata:pull-request",
+      "command": "npm run metadata:pull-request",
+      "runAtStart": false
+    },
+    "metadata:branch": {
+      "name": "metadata:branch",
+      "command": "npm run metadata:branch",
+      "runAtStart": false
+    },
+    "metadata:unbranch": {
+      "name": "metadata:unbranch",
+      "command": "npm run metadata:unbranch",
+      "runAtStart": false
+    },
+    "metadata:publish": {
+      "name": "metadata:publish",
+      "command": "npm run metadata:publish",
+      "runAtStart": false
+    },
+    "metadata:update:release": {
+      "name": "metadata:update:release",
+      "command": "npm run metadata:update:release",
+      "runAtStart": false
+    },
+    "metadata:update:branch": {
+      "name": "metadata:update:branch",
+      "command": "npm run metadata:update:branch",
+      "runAtStart": false
+    },
+    "metadata:update:pull-request": {
+      "name": "metadata:update:pull-request",
+      "command": "npm run metadata:update:pull-request",
+      "runAtStart": false
+    },
+    "metadata:generate": {
+      "name": "metadata:generate",
+      "command": "npm run metadata:generate",
+      "runAtStart": false
+    },
+    "metadata:generate:min": {
+      "name": "metadata:generate:min",
+      "command": "npm run metadata:generate:min",
+      "runAtStart": false
+    },
+    "metadata:generate:full": {
+      "name": "metadata:generate:full",
+      "command": "npm run metadata:generate:full",
+      "runAtStart": false
+    },
+    "metadata:generate:max": {
+      "name": "metadata:generate:max",
+      "command": "npm run metadata:generate:max",
+      "runAtStart": false
+    },
+    "metadata:generate:mobile": {
+      "name": "metadata:generate:mobile",
+      "command": "npm run metadata:generate:mobile",
+      "runAtStart": false
+    },
+    "metadata:generate:min:js": {
+      "name": "metadata:generate:min:js",
+      "command": "npm run metadata:generate:min:js",
+      "runAtStart": false
+    },
+    "metadata:generate:full:js": {
+      "name": "metadata:generate:full:js",
+      "command": "npm run metadata:generate:full:js",
+      "runAtStart": false
+    },
+    "metadata:generate:max:js": {
+      "name": "metadata:generate:max:js",
+      "command": "npm run metadata:generate:max:js",
+      "runAtStart": false
+    },
+    "metadata:generate:mobile:js": {
+      "name": "metadata:generate:mobile:js",
+      "command": "npm run metadata:generate:mobile:js",
+      "runAtStart": false
+    },
+    "metadata:generate:mobile:examples:js": {
+      "name": "metadata:generate:mobile:examples:js",
+      "command": "npm run metadata:generate:mobile:examples:js",
+      "runAtStart": false
+    },
+    "metadata:download": {
+      "name": "metadata:download",
+      "command": "npm run metadata:download",
+      "runAtStart": false
+    },
+    "generate-country-codes": {
+      "name": "generate-country-codes",
+      "command": "npm run generate-country-codes",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "npm run test",
+      "runAtStart": false
+    },
+    "test-coverage": {
+      "name": "test-coverage",
+      "command": "npm run test-coverage",
+      "runAtStart": false
+    },
+    "test-coverage:commonjs": {
+      "name": "test-coverage:commonjs",
+      "command": "npm run test-coverage:commonjs",
+      "runAtStart": false
+    },
+    "test-coverage--does-not-work-with-es-modules": {
+      "name": "test-coverage--does-not-work-with-es-modules",
+      "command": "npm run test-coverage--does-not-work-with-es-modules",
+      "runAtStart": false
+    },
+    "test-coverage--nyc--does-not-work-with-es-modules": {
+      "name": "test-coverage--nyc--does-not-work-with-es-modules",
+      "command": "npm run test-coverage--nyc--does-not-work-with-es-modules",
+      "runAtStart": false
+    },
+    "coveralls--nyc-is-very-slow-and-is-not-used": {
+      "name": "coveralls--nyc-is-very-slow-and-is-not-used",
+      "command": "npm run coveralls--nyc-is-very-slow-and-is-not-used",
+      "runAtStart": false
+    },
+    "test-travis": {
+      "name": "test-travis",
+      "command": "npm run test-travis",
+      "runAtStart": false
+    },
+    "clean": {
+      "name": "clean",
+      "command": "npm run clean",
+      "runAtStart": false
+    },
+    "build:commonjs": {
+      "name": "build:commonjs",
+      "command": "npm run build:commonjs",
+      "runAtStart": false
+    },
+    "build:commonjs:before-es-modules": {
+      "name": "build:commonjs:before-es-modules",
+      "command": "npm run build:commonjs:before-es-modules",
+      "runAtStart": false
+    },
+    "build:commonjs:with-tests": {
+      "name": "build:commonjs:with-tests",
+      "command": "npm run build:commonjs:with-tests",
+      "runAtStart": false
+    },
+    "build:commonjs:package.json": {
+      "name": "build:commonjs:package.json",
+      "command": "npm run build:commonjs:package.json",
+      "runAtStart": false
+    },
+    "build:modules": {
+      "name": "build:modules",
+      "command": "npm run build:modules",
+      "runAtStart": false
+    },
+    "build:bundle": {
+      "name": "build:bundle",
+      "command": "npm run build:bundle",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "prepublishOnly": {
+      "name": "prepublishOnly",
+      "command": "npm run prepublishOnly",
+      "runAtStart": false
+    }
+  }
+}
